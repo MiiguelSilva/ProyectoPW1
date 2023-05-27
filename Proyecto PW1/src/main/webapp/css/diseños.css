@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;   
+}
+body{
+    background: #43C6AC;   /* fallback for old browsers*/
+    background: url("https://fondosmil.com/fondo/17010.jpg") center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img-Inicio{
+    display: flex;
+    justify-content: center;
+}
+.login-container{
+    position: absolute;
+    width:350px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #43C6AC;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 8px 8px 15px #0F2027,
+    -8px -8px 25px #203A43;
+}
+
+.login-container p{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.login-container .data i{
+    color: #fff;
+    margin: 20px 5px 20px 20px;
+    justify-content: center;
+}
+.login-container .data input{
+    outline: none;
+    border: none;
+    background-color: none;
+    font-size: 15px;
+}
+input[type=submit]{
+    width: 150px;
+}
+input[type=button]{
+    width: 150px;
+}
+
+.Register-container{
+    position: relative;
+    width: 1100px;
+    height: 900px;
+    top: 1%;
+    left: 10%;  
+    background-color: #acdaf0;
+    padding: 1em;
+    border-radius: 5px;
+   
+}
+.Register-container p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+.Register-container input[type="text"]{
+    width: 75%;
+    padding: 12px 10;
+    border-radius: 5px;
+}
+.Register-container input[type="date"]{
+    width: 75%;
+    padding: 12px 10;
+    border-radius: 5px;
+}
+.Register-container input[type="email"]{
+    width: 75%;
+    padding: 12px 10;
+    border-radius: 5px;
+}
+.Register-container input[type="password"]{
+    width: 75%;
+    padding: 12px 10;
+    border-radius: 5px;
+}
+.Register-container .image-preview{
+    width: 300px;
+    min-height: 90px;
+    border: 2px solid #dddddd ;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #504e4e;
+}
+.Register-container .image-preview__image{
+    display: none;
+    width: 100%;
+}
+
+.format-error{
+    display: none; 
+    color: red;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-style: italic;
+
+}

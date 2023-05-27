@@ -1,0 +1,37 @@
+.busquedacontainer{
+     margin-top: 100px;
+    position: relative;
+    width: 80%;
+    top: 1%;
+    left: 10%;  
+    background-color: #acdaf0;
+    padding: 1em;
+    border-radius: 5px;
+   
+}
+.busquedacontainer input[type="text"]{
+    width: 91%;
+    padding: 12px 10;
+    border-radius: 5px;
+}
+.busquedacontainer input[type="date"]{
+    width: 45%;
+    padding: 12px 10;
+    border-radius: 5px;
+}
+.button2{
+    border:none;
+    width:98%;
+    color:white;
+    font-size:20px;
+    background: #2a0451;
+    padding:15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button2:hover{
+    background: rgb(138, 10, 218);
+}
+
+

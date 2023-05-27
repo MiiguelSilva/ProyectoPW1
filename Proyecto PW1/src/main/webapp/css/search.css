@@ -1,0 +1,53 @@
+body{
+    background: #43C6AC;   /* fallback for old browsers*/
+    background: url("https://fondosmil.com/fondo/17010.jpg") center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-box:hover>.search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover>.search-btn{
+    background: white;
+}
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #3d1654;
+    height: 58px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+.search-btn{
+    color: #43C6AC;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #191654, #43C6AC);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #3d1654;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 00.4s;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
+}
